@@ -13,7 +13,7 @@ Download link: https://download.vulnhub.com/kioptrix/Kioptrix_Level_1.rar
 
 ![Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled.png](Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled.png)
 
-### SCANNING
+### Scanning
 
   2.  nmap Full port scanning 
 
@@ -27,7 +27,7 @@ Download link: https://download.vulnhub.com/kioptrix/Kioptrix_Level_1.rar
 
 ![Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled%202.png](Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled%202.png)
 
-### ENUMERATION
+### Enumeration
 
 PORT - 139
 
@@ -61,13 +61,15 @@ PORT - 139
 
 ![Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled%2011.png](Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled%2011.png)
 
-### PORT 80
+ PORT 80
 
 Scanning website using nikto 
 
 **nikto -h IP_address**
 
 ![Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled%2012.png](Kioptrix%20Level%201%2092fc1ded06c541e2aee03c560aa7f674/Untitled%2012.png)
+
+### Exploitation
 
 Apache mod_ssl 2.8.4 is vulnerable
 
